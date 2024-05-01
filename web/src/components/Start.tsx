@@ -40,6 +40,13 @@ const Option = ({
       fontSize: large ? "20px" : "18px",
       transition: "all 0.2s ease-in-out",
     }}
+    onClick={() => {
+      if (!url) {
+        updateState({ ...state, mode: "chat" });
+      } else {
+        window.open(url, "_blank");
+      }
+    }}
   >
     <Text fontWeight={"700"} fontSize={"19px"}>
       {type !== "link" && <ChatIcon mr={"10px"} />}
@@ -54,13 +61,6 @@ const Option = ({
       alignSelf={"center"}
       shadow={"xl"}
       _hover={{ bg: "#6417b2" }}
-      onClick={() => {
-        if (!url) {
-          updateState({ ...state, mode: "chat" });
-        } else {
-          window.open(url, "_blank");
-        }
-      }}
     >
       {buttonTitle}
     </Button>
