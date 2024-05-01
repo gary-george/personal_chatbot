@@ -84,7 +84,7 @@ const Options = ({
       title="Github"
       description="View the code"
       buttonTitle="Visit"
-      url="http://google.com"
+      url="https://github.com/gary-george/personal_chatbot"
       state={state}
       updateState={updateState}
     />
@@ -101,7 +101,7 @@ const Options = ({
       title="Medium"
       description="Read the article"
       buttonTitle="Read"
-      url="http://google.com"
+      url="https://garygeorge84.medium.com/build-a-personal-ai-chatbot-with-node-langchain-typescript-react-7a71c4648ea4"
       state={state}
       updateState={updateState}
     />
