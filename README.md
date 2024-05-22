@@ -16,10 +16,10 @@ cd web
 follow the read me
 ```
 
-## Project Code
+## Project Code 🧑‍💻
 
 [github url](https://github.com/gary-george/personal_chatbot)
 
-## Article
+## Overview Blog Post 🤖✉️
 
 [medium url](https://garygeorge84.medium.com/build-a-personal-ai-chatbot-with-node-langchain-typescript-react-7a71c4648ea4)
